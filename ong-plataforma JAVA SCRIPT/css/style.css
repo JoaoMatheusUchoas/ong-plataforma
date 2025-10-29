@@ -312,3 +312,20 @@ footer {
 .mt-2 { margin-top: var(--space-2); }
 .mt-3 { margin-top: var(--space-3); }
 .mt-4 { margin-top: var(--space-4); }
+
+button#modo-contraste {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body.contraste {
+  background: black;
+  color: white;
+}
